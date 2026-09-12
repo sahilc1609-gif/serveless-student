@@ -1,0 +1,15 @@
+service: serverless-student-result-management
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: ap-south-1
+
+functions:
+  health:
+    handler: src/handlers/health.handler
+    events:
+      - httpApi:
+          path: /health
+          method: get

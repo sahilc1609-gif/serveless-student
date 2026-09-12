@@ -1,0 +1,7 @@
+{
+  "application_name": "Serverless Student Result Management System",
+  "environment": "local",
+  "database": "SQLite",
+  "cloud_provider": "AWS",
+  "region": "ap-south-1"
+}

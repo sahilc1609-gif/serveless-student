@@ -1,0 +1,12 @@
+{
+  "students": [
+    {"roll_no":"101","name":"Aarav Sharma","course":"CSE","semester":1},
+    {"roll_no":"102","name":"Priya Patel","course":"CSE","semester":1}
+  ],
+  "results": [
+    {"roll_no":"101","subject":"Python","marks":88},
+    {"roll_no":"101","subject":"Cloud Computing","marks":92},
+    {"roll_no":"102","subject":"Python","marks":76},
+    {"roll_no":"102","subject":"Cloud Computing","marks":81}
+  ]
+}
